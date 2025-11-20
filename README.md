@@ -59,7 +59,7 @@ Personalized Plan (With timelines & resources)
 ```bash
 git clone https://github.com/yourusername/professor-planwell.git
 cd professor-planwell
-
+```
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
