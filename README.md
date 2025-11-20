@@ -1,29 +1,64 @@
-```markdown
 # Professor Planwell - AI Planning Assistant 🤖🎓
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-AI-blue?style=for-the-badge&logo=google&logoColor=white)
 
-A professional **AI-powered planning and goal achievement** web application built with Streamlit that transforms your ambitions into actionable, step-by-step plans powered by Google's Gemini API.
+A professional **AI-powered planning and goal achievement** web application built with Streamlit that transforms your ambitions into actionable, step-by-step plans powered by Google's Gemini API, with memory persistence and personalized teaching methodology.
 
 ## ✨ Features
 
-- 🎯 **Intelligent Goal Breakdown** - Transform complex goals into manageable steps
-- 📚 **Structured Guidance** - Clear, teacher-style explanations with reasoning
-- 🔍 **Web Research Integration** - Automatic resource discovery for learning goals
-- 💾 **Memory & Progress Tracking** - Remembers your conversations and achievements
-- 🎓 **Personalized Learning** - Adapts to your learning style and preferences
+### 🎯 **Intelligent Planning**
+- Break down complex goals into manageable steps
+- Structured planning with clear reasoning and timelines
+- Adaptive to your learning style and preferences
 
-## 🚀 Quick Start
+### 📚 **Teaching Methodology**
+- Patient, encouraging teacher persona (Professor Planwell)
+- Uses analogies and examples for better understanding
+- Celebrates small victories and progress milestones
 
-### Installation
+### 🔍 **Enhanced Research**
+- Web research integration for learning and study goals
+- Automatic resource discovery and recommendations
+- Context-aware planning based on your needs
+
+### 💾 **Memory & Personalization**
+- Conversation history tracking (last 20 conversations)
+- Learning style detection (visual, auditory, kinesthetic)
+- Progress analytics and achievement tracking
+- Personalized encouragement and guidance
+
+## 🚀 How Professor Planwell Works
+User Goal
+↓
+
+ANALYSIS: Understand goal importance and challenges
+↓
+
+STRUCTURING: Create step-by-step plan with reasoning
+↓
+
+ENHANCEMENT: Add resources and personalized tips
+↓
+
+DELIVERY: Provide encouraging, teacher-style guidance
+↓
+Personalized Plan (With timelines & resources)
+
+
+## Installation
+
+### Requirements
+- Python 3.8+
+- Gemini API Key ([Get it here](https://aistudio.google.com/app/apikey))
+
+### Setup
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/professor-planwell.git
 cd professor-planwell
-```
 
 2. **Install dependencies**
 ```bash
